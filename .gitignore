@@ -22,4 +22,7 @@ _testmain.go
 *.exe
 *.test
 .idea
+
 .vscode
+_project/
+vendor/

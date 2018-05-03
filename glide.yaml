@@ -1,0 +1,9 @@
+package: github.com/litao44/pongo2-addons
+import:
+- package: github.com/flosch/pongo2
+  version: ~3.0.0
+testImport:
+- package: github.com/stretchr/testify
+  version: ~1.2.1
+  subpackages:
+  - assert

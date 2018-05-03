@@ -1,0 +1,20 @@
+hash: ec233851f6cd0d8fdf63b4f26d34d5903ec57a41d2db2620e147964d0e683746
+updated: 2018-05-03T18:49:38.877337286+08:00
+imports:
+- name: github.com/dustin/go-humanize
+  version: 02af3965c54e8cacf948b97fef38925c4120652c
+- name: github.com/flosch/pongo2
+  version: 5e81b817a0c48c1c57cdf1a9056cf76bdee02ca9
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 12b6f73e6084dad08a7c6e575284b177ecafbc71
+  subpackages:
+  - assert
