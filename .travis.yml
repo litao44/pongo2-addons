@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.10
+  - tip
+install:
+  - go get github.com/flosch/pongo2
+  - go get github.com/dustin/go-humanize
+script:
+  - go test -v -covermode=count -coverprofile=coverage.out
